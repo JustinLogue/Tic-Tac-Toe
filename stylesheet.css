@@ -1,0 +1,16 @@
+.place{
+    background-color: cyan;
+    height: 50px;
+    width: 100px;
+    border: black 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.board{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
