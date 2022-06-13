@@ -1,3 +1,10 @@
+.wrapper{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    align-content: center;
+    justify-content: center;
+}
+
 .place{
     background-color: cyan;
     height: 50px;
@@ -6,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
 }
 
 
@@ -13,4 +21,49 @@
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#resetButton{
+    height:75px;
+    width: 200px;
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+    text-align: center;
+    display: none;
+    box-shadow: 0 6px #999;
+
+}
+
+#resetButton:hover{
+    background-color: #282828;
+}
+
+#resetButton:active{
+    background-color: #282828;
+    box-shadow: 0 3px #999;
+    transform: translateY(3px);
+}
+
+h1{
+    text-align: center;
+}
+
+#WinnerArea{
+    margin-left: calc(50% - 100px);
+
+}
+
+#WinnerArea{
+    width: 250px;
+}
+
+#resetButton{
+    margin-left: calc(50% - 100px);
+}
+
+#turnOrder{
+   text-align: center;
 }
